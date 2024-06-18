@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#animals">Animals</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to the Animal Kingdom</h1>
+        <p>Discover the amazing world of animals.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing information about different kinds of animals from all around the world.</p>
+    </section>
+    <section id="animals">
+        <h2>Our Animals</h2>
+        <div class="animal">
+            <img src="lion.jpg" alt="Lion">
+            <h3>Lion</h3>
+            <p>The lion is a species in the family Felidae and a member of the genus Panthera.</p>
+        </div>
+        <div class="animal">
+            <img src="tiger.jpg" alt="Tiger">
+            <h3>Tiger</h3>
+            <p>The tiger is the largest species among the Felidae and classified in the genus Panthera.</p>
+        </div>
+        <div class="animal">
+            <img src="elephant.jpg" alt="Elephant">
+            <h3>Elephant</h3>
+            <p>Elephants are large mammals of the family Elephantidae in the order Proboscidea.</p>
+        </div>
+        <!-- Add more animals as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Animal Kingdom. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
